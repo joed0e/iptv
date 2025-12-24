@@ -21,7 +21,10 @@ https://mifntechnology.github.io/siaranMy/channels/Tv6/index.m3u8
 https://mifntechnology.github.io/siaranMy/channels/DidikTvKPM/index.m3u8
 
 #EXTINF:-1 group-title="siaranMy" tvg-id="8TV" tvg-name="8TV" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/8tv.png",8TV
-https://mifntechnology.github.io/siaranMy/channels/8tv/index.m3u8
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"0cb7980e9d1d8957f9a293ed96342410": "11da1ad368d0cacffe4824b6b35e22b7"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; CPH1819 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.7049.99 Mobile Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/911/default_primary.mpd
 
 #EXTINF:-1 group-title="siaranMy" tvg-id="TV9" tvg-name="TV9" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/Tv9.png",TV9
 https://mifntechnology.github.io/siaranMy/channels/Tv9/index.m3u8
@@ -35,11 +38,8 @@ https://mifntechnology.github.io/siaranMy/channels/SukanRTM/index.m3u8
 #EXTINF:-1 group-title="siaranMy" tvg-id="BernamaTV" tvg-name="BernamaTV" tvg-logo="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/Bernama.png", BERNAMA
 https://mifntechnology.github.io/siaranMy/channels/Bernama/index.m3u8
 
-#EXTINF:-1 group-title="siaranMy" tvg-id="TVS"  tvg- tvg-logo="https://mifntechnology.github.io/siaranMy/logo/Tvs.jpg",TVS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={"c3e956b38ae993be1494c7cfa17b1110": "55ccaee886b340dd901f4bf8dd9d3a6a"}
-https://linearjitp-playback.astro.com.my/dash-wv/linear/5021/default_ott.mpd
+#EXTINF:-1 group-title="siaranMy" tvg-id="TVS" tvg-name="TVS" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/Tvs.png",TVS
+https://mifntechnology.github.io/siaranMy/channels/Tvs/index.m3u8
 
 #EXTINF:-1 group-title="siaranMy" tvg-id="TVIKIM" tvg-number="117" tvg-name="Tv Ikim" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/TvIkim.png", TV Ikim
 https://mifntechnology.github.io/siaranMy/channels/TvIkim/index.m3u8
@@ -62,6 +62,13 @@ https://mifntechnology.github.io/siaranMy/channels/DewanNegara/index.m3u8
 
 #EXTINF:-1 group-title="kids" tvg-id="CartoonNetwork " tvg-logo="https://mifntechnology.github.io/siaranMy/logo/CN.png",CartoonNetwork
 https://mifntechnology.github.io/siaranMy/channels/CartoonNetwork/index.m3u8
+
+#EXTINF:-1 group-title="radio" tvg-id="Eight FM" tvg-name="8 Fm tvg-logo="https://mifntechnology.github.io/siaranMy/logo/8Fm.png",8Fm 
+https://mifntechnology.github.io/siaranMy/radio/8Fm/playlist.m3u8
+#EXTINF:-1 tvg-id="Trans7.id" tvg-logo="https://i.imgur.com/fAbGImS.png" group-title="Indonesia",Trans7 (720p)
+https://video.detik.com/trans7/smil:trans7.smil/index.m3u8
+#EXTINF:-1 tvg-id="TransTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Trans_TV_2013.svg/512px-Trans_TV_2013.svg.png" group-title="Indonesia",Trans TV (720p)
+https://video.detik.com/transtv/smil:transtv.smil/index.m3u8
 
 #EXTINF:-1 group-title="radio" tvg-id="Hot FM" tvg-name="Hot Fm" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/HotFm.png",Hot Fm
 https://mifntechnology.github.io/siaranMy/radio/HotFm/playlist.m3u8
@@ -101,10 +108,3 @@ https://mifntechnology.github.io/siaranMy/radio/RiaFm/playlist.m3u8
 
 #EXTINF:-1 group-title="radio" tvg-id="Asyik FM" tvg-name="Asyik Fm" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/AsyikFm.png",AsyikFm
 https://mifntechnology.github.io/siaranMy/radio/AsyikFm/playlist.m3u8
-
-#EXTINF:-1 group-title="radio" tvg-id="Eight FM" tvg-name="8 Fm tvg-logo="https://mifntechnology.github.io/siaranMy/logo/8Fm.png",8Fm 
-https://mifntechnology.github.io/siaranMy/radio/8Fm/playlist.m3u8
-#EXTINF:-1 tvg-id="Trans7.id" tvg-logo="https://i.imgur.com/fAbGImS.png" group-title="Indonesia",Trans7 (720p)
-https://video.detik.com/trans7/smil:trans7.smil/index.m3u8
-#EXTINF:-1 tvg-id="TransTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Trans_TV_2013.svg/512px-Trans_TV_2013.svg.png" group-title="Indonesia",Trans TV (720p)
-https://video.detik.com/transtv/smil:transtv.smil/index.m3u8
